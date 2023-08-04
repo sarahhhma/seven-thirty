@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+html, body {
+    background: black;
+    color: white;
+    text-align: center;
+    font-family: 'Metal Mania', cursive;
+}
+h1 {
+    font-weight: normal;
+    font-size: 3em;
+    text-shadow: 0px 0px 5px red;
+}
+h2, h3 {
+    font-weight: normal;
+}
+div > h2 {
+    margin-top: 50px;
+}
+.josh {
+    width: 150px;
+    border-radius: 50%;
+}
+.gift {
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border: 8px solid red;
+    border-radius: 5px;
+    background-image: url('present.png');
+    background-size: cover;
+}
+.gift-1:hover {
+    background-image: url('bjork.gif');
+    background-position: center;
+}
+.gift-2:hover {
+    background-image: url('cute.gif');
+}
+.gift-3:hover {
+    background-image: url('humble.gif');
+    background-position: center;
+}
+.gift-4:hover {
+    background-image: url('ronswa.gif');
+    background-position: center;
+}
+.gift-5:hover {
+    background-image: url('justyou.gif');
+    background-position: center;
+}
